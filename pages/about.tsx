@@ -1,5 +1,12 @@
+import Seo from "../components/Seo";
+
 const About = () => {
-  return <></>;
+  return (
+    <div>
+      <Seo title={"About"} />
+      <h1>About</h1>
+    </div>
+  );
 };
 
 export default About;
